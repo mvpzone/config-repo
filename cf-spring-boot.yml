@@ -1,0 +1,4 @@
+#Config server properties for cf-spring-boot app.
+
+greeting: Guten Tag
+
