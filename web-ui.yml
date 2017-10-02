@@ -1,0 +1,19 @@
+pivotal:
+  app:
+    symbols:
+      it: EMC,VMW,HP
+      fs: JPM,C,MS,BAC,GS,WFC
+---
+spring:
+  profiles: local
+  jpa:
+     hibernate:
+        ddl-auto: update
+server:
+  port: 8080
+---
+spring:
+  profiles: cloud
+  jpa:
+     hibernate:
+        ddl-auto: update
